@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section {
+    background-image: url(https://www.visittheusa.com/sites/default/files/styles/hero_xl_1600x700/public/images/hero_media_image/2016-10/HERO%201_GettyImages-155688345.jpg?h=aa28cc4d&itok=SPY_MziI);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#hero-title {
+    background-color: #1D3557;
+    color: #F1FAEE;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-family: 'Shalimar', cursive;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 90px;
+    margin-bottom: 0;
+}
+    
+#hero-desc {
+    background-color: rgba(69, 123, 157, 0.6);
+    color: #F1FAEE;
+    padding: 6px 15px 6px 15px;
+    border-radius: 5px;
+    margin-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#activities-section {
+    /* background-color: #F1FAEE; */
+    background-color: #F3E9E2;
+    margin: 0;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+
+#activities-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex: 1; */
+    padding-top: 30px;
+}
+
+.activities-item {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    
+}
+
+.activities-img {
+    border-radius: 50%;
+}
+
+#card {
+    width: 500px;
+    display: flex;
+    margin: 40px auto;
+    border-radius: 10px;
+    border-bottom: 5px solid #1D3557;
+    background-color: #A8DADC;
+}
+
+#card-info {
+    padding: 40px;
+}
+
+#card-quote {
+    font-style: italic;
+}
+
+#card-img-wrapper {
+    padding: 15px;
+}
+
+#card-img{
+    padding: 40px 0 40px 0;
+    width: 200px;
+    border-radius: 50%;
+}
